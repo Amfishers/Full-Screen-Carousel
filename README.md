@@ -4,19 +4,15 @@ Full-Screen-Carousel
 一、首先加入js
 
 
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="js/fullplay.js"></script>
+jquery-1.9.1.min.js  //jquery库
+fullplay.js          
 
 
 二、html规则
 
-   <div id="bodyPage">
-      <img src="images/bg1.jpg" class="bg">
-      <img src="images/bg2.jpg" class="bg">
-      <img src="images/bg3.jpg" class="bg">
-    </div>
 
-【ps】每一张图片都应该加上.bg类
+ 每一张图片都应该加上.bg类
+
 
 三、说明
 
