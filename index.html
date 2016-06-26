@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+html{ margin: 0; padding:0; }
+body{ margin:0; padding:0; }
+#bodyPage{ width:100%; min-height:100%; height:auto !important; height:100%; position:fixed; top:0; left:0; }
+img.bg { position:absolute; top: 0px; left: 0px; z-index:1; display:none;}
+</style>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/fullplay.js"></script>
+
+<title>Full Screen Carousel</title>
+
+</head>
+<body>
+
+<div id="bodyBox">
+
+	<div id="bodyPage">
+   	  <img src="images/bg1.jpg" class="bg">
+      <img src="images/bg2.jpg" class="bg">
+      <img src="images/bg3.jpg" class="bg">
+    </div>
+    
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(e) {
+    
+   $("#bodyPage").fullImages({
+	   ImgWidth: 1920,
+	   ImgHeight: 980,
+	   autoplay :  3500,
+	   fadeTime : 1500
+   });
+	
+});
+</script>
+
+
+
+</body>
+</html>
